@@ -1,0 +1,79 @@
+#table{
+	position: relative;
+	width: 1000px;
+	height: 200px;
+	left: 100px;
+	border: solid black 0.2em;
+}
+
+.mark{
+	position: absolute;
+	height: 10px;
+	border: solid black 0.1em;	
+}
+
+.dist{
+	position: absolute;
+	top: 10px;
+}
+
+#line{
+	position: relative;
+	top: 100px;
+	width: 1000px;
+	border: solid black 0.1em;
+}
+
+.circle{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+#you{
+	background-color: blue;
+	top: -5px;
+	left: 0px;
+}
+
+#friend{
+	background-color: green;
+	top: -5px;
+	left: 0px;
+}
+
+#marker{
+	background-color: red;
+	left: 496px;
+	top: -5px;
+	z-index: 3;
+}
+
+#results{
+	position: absolute;
+	left: 600px;
+	top: 240px;
+}
+
+td{
+	border-bottom: solid black 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#running{
+	position: absolute;
+	left: 100px;
+	top: 320px;
+	display: none;
+}
+
+#warning{
+	position: absolute;
+	left: 100px;
+	top: 360px;
+	display: none;
+}
